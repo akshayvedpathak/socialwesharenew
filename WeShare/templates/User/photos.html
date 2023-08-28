@@ -1,0 +1,22 @@
+{% extends "home.html" %}
+{% block content %}
+<div class="col-md-8 col-xl-6 middle-wrapper" style="background-color:white">
+    <div class="row">
+        <div class="col-md-12 grid-margin">
+            <center><h3>Photos</h3></center>
+            {% for user in datas reversed %}
+            <div class="card-body">
+                
+                <img class="img-fluid" src="{{user.postphoto.url}}" alt="loading" height="100%"
+                    width="100%">
+                <br><hr>
+                <img class="img-fluid" src="{{user.postphoto.url}}" alt="loading" height="100%"
+                    width="100%">
+            </div>
+            {%endfor%}
+        </div>
+        
+    </div>
+</div>
+
+{%endblock%}

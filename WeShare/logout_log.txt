@@ -1,0 +1,5 @@
+2023-08-25 00:03:19.594687: User with email 'akshay1234new@gmail.com' logged out.
+2023-08-25 00:28:20.326830: User with email 'akshay1234new@gmail.com' logged out.
+2023-08-28 15:29:55.861471: User with email 'akshay@yopmail.com' with the ip '127.0.0.1 logged out.
+2023-08-28 15:30:37.929428: User with email 'new@new' with the ip '127.0.0.1 logged out.
+2023-08-28 15:33:22.537794: User with email 'akshay1234new@gmail.com' with the ip '127.0.0.1 logged out.

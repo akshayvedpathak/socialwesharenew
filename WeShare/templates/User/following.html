@@ -1,0 +1,23 @@
+{% extends "home.html" %}
+{% block content %}
+<div class="col-md-8 col-xl-6 middle-wrapper" style="background-color:white">
+    <div class="row">
+        <div class="col-md-12 grid-margin">
+            <hr><hr>
+            <center> <h3>Friends</h3></center>
+            <hr><hr>
+            {% for i in following %}
+          
+            <div>
+                <img src="{{i.profil.url}}" alt="not showing" height="50px" width="50px" > &nbsp; &nbsp; <b> {{i.fname}} {{i.lname}}</b>
+            </div>
+             
+             <hr>
+            {%endfor%}
+
+        </div>
+
+    </div>
+</div>
+
+{%endblock%}
